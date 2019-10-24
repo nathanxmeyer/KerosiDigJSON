@@ -1,6 +1,6 @@
 {
   "version": 20191024,
-  "project": "Keros test",
+  "project": "Pottery ReRead",
   "crs": "Keros",
   "fields": [
     {
@@ -4519,6 +4519,1038 @@
               "field": "Description"
             }
           ]
+        },
+        {
+          "group": "Flotation Information",
+          "label": "Flotation Information",
+          "fields": [
+            {
+              "field": "FlotationVolume",
+              "label": "volume",
+              "tip": ""
+            }
+          ]
+        },
+        {
+          "group": "Flotation Heavy Residue",
+          "label": "Flotation Heavy Residue",
+          "fields": [
+            {
+              "field": "FlotationVolume",
+              "label": "volume",
+              "tip": ""
+            },
+            {
+              "field": "FlotationShell",
+              "label": "shell",
+              "tip": ""
+            },
+            {
+              "field": "FlotationFish",
+              "label": "fish",
+              "tip": ""
+            },
+            {
+              "field": "FlotationBone",
+              "label": "bone",
+              "tip": ""
+            },
+            {
+              "field": "FlotationCharcoal",
+              "label": "charcoal",
+              "tip": ""
+            },
+            {
+              "field": "FlotationSeeds",
+              "label": "seeds",
+              "tip": ""
+            },
+            {
+              "field": "FlotationObsidian",
+              "label": "obsidian",
+              "tip": ""
+            },
+            {
+              "field": "FlotationPottery",
+              "label": "pottery",
+              "tip": ""
+            },
+            {
+              "field": "FlotationMetal",
+              "label": "metal",
+              "tip": ""
+            },
+            {
+              "field": "FlotationSpecial",
+              "label": "special",
+              "tip": ""
+            }
+          ]
+        },
+        {
+          "group": "Flotation Fine Flot",
+          "label": "Flotation Fine Flot",
+          "fields": [
+            {
+              "field": "FlotationFlotCharcoal",
+              "label": "charcoal",
+              "tip": ""
+            },
+            {
+              "field": "FlotationFlotSeeds",
+              "label": "seeds",
+              "tip": ""
+            }
+          ]
+        },
+        {
+          "group": "Pottery Information",
+          "label": "Pottery Information",
+          "fields": [
+            {
+              "field": "PotterySpecialistInitials",
+              "label": "specialist",
+              "tip": "Pottery specialist initials",
+              "valuelist": [
+                
+              ],
+              "multivalue": true,
+              "multitype": true
+            },
+            {
+              "field": "PotteryJoins",
+              "label": "joins with",
+              "tip": "Pottery joins with other contexts",
+              "multiline": true
+            },
+            {
+              "field": "PotteryInventoriedMaterial",
+              "label": "inventoried",
+              "tip": "Potery inventoried material",
+              "multiline": true
+            },
+            {
+              "field": "PotteryImports",
+              "label": "imports",
+              "tip": "Pottery imports",
+              "multiline": true
+            },
+            {
+              "field": "PotteryWheel",
+              "label": "wheel",
+              "tip": "Pottery wheel-made",
+              "multiline": true
+            },
+            {
+              "field": "PotteryKastri",
+              "label": "kastri",
+              "tip": "Pottery Kastri Group"
+            },
+            {
+              "field": "PotteryImpressions",
+              "label": "impress.",
+              "tip": "Pottery mat impressions",
+              "multiline": true
+            },
+            {
+              "field": "PotteryMarks",
+              "label": "marks",
+              "tip": "Potters' marks",
+              "multiline": true
+            },
+            {
+              "field": "PotterySherdSizes",
+              "label": "sherd sizes",
+              "tip": "Pottery sherd sizes",
+              "valuelist": [
+                "predominantly small",
+                "predominantly medium",
+                "predominantly large"
+              ]
+            },
+            {
+              "field": "PotteryWear",
+              "label": "wear",
+              "tip": "Pottery wear",
+              "valuelist": [
+                "badly preserved",
+                "partly preserved",
+                "well preserved"
+                ]
+            },
+            {
+              "field": "PotteryBurning",
+              "label": "burning",
+              "tip": "Pottery burning",
+              "multiline": true
+            }
+          ]
+        },
+        {
+          "group": "Pottery Fabrics",
+          "label": "Pottery Fabrics",
+          "fields": [
+            {
+              "field": "PotteryCountBlueSchist",
+              "label": "B schist #",
+              "tip": "Pottery count blue schist"
+            },
+            {
+              "field": "PotteryCountRedSchist",
+              "label": "R schist #",
+              "tip": "Pottery count red schist"
+            },
+            {
+              "field": "PotteryCountBlueAndRedSchist",
+              "label": "B/R schist #",
+              "tip": "Pottery count blue and red schist"
+            },
+            {
+              "field": "PotteryCountTalcWare",
+              "label": "talc #",
+              "tip": "Pottery count talc ware"
+            },
+            {
+              "field": "PotteryCountPaleVolcanic",
+              "label": "volcanic #",
+              "tip": "Pottery count pale volcanic"
+            },
+            {
+              "field": "PotteryCountMicaceousSchist",
+              "label": "M schist #",
+              "tip": "Pottery count micaceous schist"
+            },
+            {
+              "field": "PotteryCountMicaceous",
+              "label": "2016 mica #",
+              "tip": "Pottery count micaceous"
+            },
+            {
+              "field": "PotteryCountCalciteTemper",
+              "label": "calc. tmp #",
+              "tip": "Pottery count calcite temper"
+            },
+            {
+              "field": "PotteryCountGranitic",
+              "label": "granitic #",
+              "tip": "Pottery count granitic"
+            },
+            {
+              "field": "PotteryCountSandy",
+              "label": "sandy #",
+              "tip": "Pottery count sandy"
+            },
+            { "field": "PotteryCountBiotiteAmphibole",
+              "label": "biolite/amphibole #",
+              "tip": "Pottery count biotite/amiphole"
+            },
+            {
+              "field": "PotteryCountOtherFabric",
+              "label": "other #",
+              "tip": "Pottery count other fabric"
+            },
+            {
+              "field": "FabricCountComment",
+			        "label": "Comment",
+			        "tip": "Comment on fabric counts",
+			        "multiline": true
+            }
+          ]
+        },
+        {
+            "group": "Pottery Shapes",
+            "label": "Shapes",
+            "fields": [
+                {
+                    "field": "PotteryCountBakingPansOrHearths",
+                    "label": "pans #",
+                    "tip": "Vessel count baking pans or hearths",
+                    "number": true
+                },
+                {
+                    "field": "PotteryFabricBakingPansOrHearths",
+                    "label": "pans fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountBakingPansOrHearths",
+                    "label": "pan sherd #",
+                    "tip": "Sherd count baking pans or hearths",
+                    "number": true
+                },
+                {
+                    "field": "PotteryCountCooking",
+                    "label": "cooking #",
+                    "tip": "Vessel count cooking pot",
+                    "number": true
+                },
+                {
+                    "field": "PotteryFabricCooking",
+                    "label": "cooking fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountCooking",
+                    "label": "cooking sherd #",
+                    "tip": "Sherd count cooking pot",
+                    "number": true
+                },
+                {
+                    "field": "PotteryCountStorageOrPithoidJars",
+                    "label": "storage #",
+                    "tip": "Vessel count storage or pithoid jars"
+                },
+                {
+                    "field": "PotteryFabricStoragePithoi",
+                    "label": "storage fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountStorageOrPithoidJars",
+                    "label": "storage sherd #",
+                    "tip": "Sherd count storage or pithoid jars"
+                },
+                {
+                    "field": "PotteryCountBraziers",
+                    "label": "braziers #",
+                    "tip": "Vessel count braziers"
+                },
+                {
+                    "field": "PotteryFabricBraziers",
+                    "label": "brazier fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountBraziers",
+                    "label": "brazier sherd #",
+                    "tip": "Sherd count braziers"
+                },
+                {
+                    "field": "PotteryCountSauceBoats",
+                    "label": "saucebt #",
+                    "tip": "Vessel count sauceboats"
+                },
+                {
+                    "field": "PotteryFabricSauceBoat",
+                    "label": "saucebt fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountSauceBoats",
+                    "label": "saucebt sherd #",
+                    "tip": "Sherd count sauceboats"
+                },
+                {
+                    "field": "PotteryCountBowls",
+                    "label": "bowls #",
+                    "tip": "Vessel count bowls"
+                },
+                {
+                    "field": "PotteryFabricBowls",
+                    "label": "bowls fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountBowls",
+                    "label": "bowl sherd #",
+                    "tip": "Sherd count bowls"
+                },
+                {
+                    "field": "PotteryCountCups",
+                    "label": "cups #",
+                    "tip": "Vessel count cups"
+                },
+                {
+                    "field": "PotteryFabricCups",
+                    "label": "cups fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountCups",
+                    "label": "cup sherd #",
+                    "tip": "Sherd count cups"
+                },
+                {
+                    "field": "PotteryCountDepas",
+                    "label": "depas #",
+                    "tip": "Vessel count depas"
+                },
+                {
+                    "field": "PotteryFabricDepas",
+                    "label": "depas fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountDepas",
+                    "label": "depas sherd #",
+                    "tip": "Sherd count depas"
+                },
+                {
+                    "field": "PotteryCountTankards",
+                    "label": "tankards #",
+                    "tip": "Vessel count tankards"
+                },
+                {
+                    "field": "PotteryFabricTankards",
+                    "label": "tankards fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountTankards",
+                    "label": "tankard sherd #",
+                    "tip": "Sherd count tankards"
+                },
+                {
+                    "field": "PotteryCountConicalNeckedJars",
+                    "label": "conical #",
+                    "tip": "Vessel count conical necked jars"
+                },
+                {
+                    "field": "PotteryFabricConicalNeckedJars",
+                    "label": "conical fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountConicalNeckedJars",
+                    "label": "conical sherd #",
+                    "tip": "Sherd count conical necked jars"
+                },
+                {
+                    "field": "PotteryCountBasins",
+                    "label": "basins #",
+                    "tip": "Vessel count basins"
+                },
+                {
+                    "field": "PotteryFabricBasins",
+                    "label": "basins fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountBasins",
+                    "label": "basin sherd #",
+                    "tip": "Sherd count basins"
+                },
+                {
+                    "field": "PotteryCountJugs",
+                    "label": "jugs #",
+                    "tip": "Vessel count jugs"
+                },
+                {
+                    "field": "PotteryFabricJugs",
+                    "label": "jugs fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountJugs",
+                    "label": "jug sherd #",
+                    "tip": "Sherd count jugs"
+                },
+                {
+                    "field": "PotteryCountBeakedJug",
+                    "label": "beaked #",
+                    "tip": "Vessel count beaked jug with cut-away spout"
+                },
+                {
+                    "field": "PotteryFabricBeakedJugs",
+                    "label": "beaked fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountBeakedJug",
+                    "label": "beaked sherd #",
+                    "tip": "Sherd count beaked jug with cut-away spout"
+                },
+                {
+                    "field": "PotteryCountPyxides",
+                    "label": "pyxides #",
+                    "tip": "Vessel count pyxides"
+                },
+                {
+                    "field": "PotteryFabricPyxides",
+                    "label": "pyxides fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountPyxides",
+                    "label": "pyxides sherd #",
+                    "tip": "Sherd count pyxides"
+                },
+                {
+                    "field": "PotteryCountLeggedVessels",
+                    "label": "legged #",
+                    "tip": "Vessel count legged vessels"
+                },
+                {
+                    "field": "PotteryFabricLeggedVessels",
+                    "label": "legged fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountLeggedVessels",
+                    "label": "legged sherds #",
+                    "tip": "Sherd count legged vessels"
+                },
+                {
+                    "field": "PotteryCountOpenShape",
+                    "label": "open #",
+                    "tip": "Vessel count open shapes"
+                },
+                {
+                    "field": "PotteryFabricOpen",
+                    "label": "open fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountOpenShape",
+                    "label": "open sherd #",
+                    "tip": "Sherd count open shapes"
+                },
+                {
+                    "field": "PotteryCountClosedShape",
+                    "label": "closed #",
+                    "tip": "Vessel count closed shapes"
+                },
+                {
+                    "field": "PotteryFabricClosedShape",
+                    "label": "closed fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountClosedShape",
+                    "label": "closed sherd #",
+                    "tip": "Sherd count closed shapes"
+                },
+                {
+                    "field": "PotteryCountLids",
+                    "label": "lids #",
+                    "tip": "Vessel count lids"
+                },
+                {
+                    "field": "PotteryFabricLids",
+                    "label": "lids fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountLids",
+                    "label": "lid sherd #",
+                    "tip": "Sherd count lids"
+                },
+                {
+                    "field": "PotteryCountMoulds",
+                    "label": "moulds #",
+                    "tip": "Vessel count moulds"
+                },
+                {
+                    "field": "PotteryFabricMoulds",
+                    "label": "moulds fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountMoulds",
+                    "label": "mould sherd #",
+                    "tip": "Sherd count moulds"
+                },
+                {
+                    "field": "PotteryCountUnknown",
+                    "label": "unknown #",
+                    "tip": "Vessel count unknown shapes"
+                },
+                {
+                    "field": "PotteryFabricUnknown",
+                    "label": "unknown fab",
+                    "tip": "Indicate one fabric per vessel, e.g.: B,P,A,G,O"
+                },
+                {
+                    "field": "PotterySherdCountUnknown",
+                    "label": "unknown sherd #",
+                    "tip": "Sherd count unknown shapes"
+                },
+                {
+                    "field": "ShapeCountComment",
+                    "label": "Comment",
+                    "tip": "Comment on shape counts",
+                    "multiline": true
+                }
+            ]
+        },
+        {
+          "group": "Shape/Fabric correlation",
+          "label": "Shape/Fabric correlation",
+          "fields": [
+            {
+              "field": "ShapeFabricCorrelation",
+			        "multiline": true
+            }
+          ]
+        },
+        {
+          "group": "Pottery Decoration",
+          "label": "Pottery Decoration",
+          "fields": [
+            {
+              "field": "PotteryCountImpressed",
+              "label": "impr. #",
+              "tip": "Pottery count impressed"
+            },
+            {
+              "field": "PotteryCountIncised",
+              "label": "incised #",
+              "tip": "Pottery count incised"
+            },
+            {
+              "field": "PotteryCountRelief",
+              "label": "relief #",
+              "tip": "Pottery count relief"
+            },
+            {
+              "field": "PotteryCountReliefAndIncised",
+              "label": "rel/inc #",
+              "tip": "Pottery count relief and incised"
+            },
+            {
+              "field": "PotteryCountPainted",
+              "label": "painted #",
+              "tip": "Pottery count painted"
+            },
+            {
+              "field": "DecorationCountComment",
+			        "label": "Comment",
+			        "tip": "Comment on decoration counts",
+			        "multiline": true
+            }
+          ]
+        },
+        {
+          "group": "Pottery Surface Treatment",
+          "label": "Pottery Surface Treatment",
+          "fields": [
+            {
+              "field": "PotteryCountPlain",
+              "label": "plain #",
+              "tip": "Pottery count plain"
+            },
+            {
+              "field": "PotteryCountSlipped",
+              "label": "2016 slipped #",
+              "tip": "Pottery count slipped"
+            },
+            {
+            "field": "PotteryCountWhiteSlip",
+            "label": "white slip #",
+            "tip": "Pottery count white slip"
+            },
+            {
+              "field": "PotteryCountDarkSlip",
+              "label": "dark slip #",
+              "tip": "Pottery count dark slip"
+            },
+            {
+              "field": "PotteryCountRedSlip",
+              "label": "red slip #",
+              "tip": "Pottery count red slip"
+            },			
+            {
+              "field": "PotteryCountSlippedAndBurnished",
+              "label": "slip/burn #",
+              "tip": "Pottery count slipped and burnished"
+            },
+            {
+              "field": "PotteryCountUrfirnis",
+              "label": "urfirnis #",
+              "tip": "Pottery count urfirnis"
+            },
+            {
+              "field": "PotteryCountScoring",
+              "label": "scoring #",
+              "tip": "Pottery count scoring"
+            },            
+            {
+              "field": "SurfaceTreatmentComment",
+              "label": "Comment",
+              "tip": "Comment on surface treatment",
+              "multiline": true
+            }
+          ]
+        },
+        {
+          "group": "Pottery Feature Count",
+          "label": "Pottery Feature Count",
+          "fields": [
+            {
+              "field": "PotteryCountFine",
+              "label": "fine #",
+              "tip": "Pottery count fine"
+            },
+            {
+              "field": "PotteryWeightFine",
+              "label": "fine wt",
+              "tip": "Pottery weight fine"
+            },
+            {
+              "field": "PotteryCountMedium",
+              "label": "medium #",
+              "tip": "Pottery count medium"
+            },
+            {
+              "field": "PotteryWeightMedium",
+              "label": "medium wt",
+              "tip": "Pottery weight medium"
+            },
+            {
+              "field": "PotteryCountCoarse",
+              "label": "coarse #",
+              "tip": "Pottery count coarse"
+            },
+            {
+              "field": "PotteryWeightCoarse",
+              "label": "coarse wt",
+              "tip": "Pottery weight coarse"
+            },
+            {
+              "field": "FeatureCountComment",
+              "label": "Comment",
+              "tip": "Comment on feature counts",
+              "multiline": true
+                  }			
+          ]
+        },
+        {
+          "group": "Pottery Mending",
+          "label": "Mending",
+          "fields": [
+            {
+              "field": "PotteryCountDiagnosticsBeforeMending",
+              "label": "diag pre #",
+              "tip": "Diagnostic pottery count before mending"
+            },
+            {
+              "field": "PotteryWeightDiagnosticsBeforeMending",
+              "label": "diag pre w",
+              "tip": "Diagnostic pottery weight before mending"
+            },
+            {
+              "field": "PotteryCountNonDiagnosticBeforeMending",
+              "label": "nond pre #",
+              "tip": "Non-Diagnostic pottery count before mending"
+            },
+            {
+              "field": "PotteryWeightNonDiagnosticBeforeMending",
+              "label": "nond pre w",
+              "tip": "Non-Diagnostic pottery weight before mending"
+            },
+            {
+              "field": "PotteryCountSmallBeforeMending",
+              "label": "Small pre #",
+              "tip": "Small pottery count before mending"
+            },
+            {
+              "field": "PotteryWeightSmallBeforeMending",
+              "label": "small pre w",
+              "tip": "Small pottery weight before mending"
+            },
+            {
+              "field": "PotteryCountBeforeMending",
+              "label": "pre count",
+              "tip": "Total pottery count before mending"
+            },
+            {
+              "field": "PotteryWeightBeforeMending",
+              "label": "pre weight",
+              "tip": "Total pottery weight before mending"
+            },
+            {
+              "field": "PotteryCountAfterMending",
+              "label": "post count",
+              "tip": "Pottery count after mending"
+            },
+            {
+              "field": "PotteryWeightAfterMending",
+              "label": "post weight",
+              "tip": "Pottery weight after mending"
+            },
+            {
+              "field": "MendingComment",
+              "label": "Comment",
+              "tip": "Comment on mending counts",
+              "multiline": true
+            }	
+          ]
+        },
+        {
+          "group": "Phase",
+          "label": "Phase",
+          "fields": [
+            {
+              "field": "CoverageTemporal"
+            },
+            {
+              "field": "ChronologyComment",
+              "label": "Comment",
+              "tip": "Comment on chronology",
+              "multiline": true
+              }
+            ]
+        },
+        {
+          "group": "ReReadStatus",
+          "label": "ReReadStatus",
+          "fields": [
+            {
+              "field": "UpdatedTo2017Standard",
+              "label": "Updated To 2017 Standard Status",
+              "valuelist": [
+                "Not Updated",
+                "Updated To 2017 Standard"
+                ]
+            }
+          ]
+        },
+        {
+          "group": "2016PotteryDiagnosticsReading",
+          "label": "2016PotteryDiagnosticsReading",
+          "fields": [
+            {
+              "field": "PotteryCountFineRim",
+              "label": "F rim #",
+              "tip": "Pottery count fine rim"
+            },
+            {
+              "field": "PotteryWeightFineRim",
+              "label": "F rim wt",
+              "tip": "Pottery weight fine rim"
+            },
+            {
+              "field": "PotteryCountFineNeckShoulder",
+              "label": "F neck/s #",
+              "tip": "Pottery count fine neck shoulder"
+            },
+            {
+              "field": "PotteryWeightFineNeckShoulder",
+              "label": "F neck/s wt",
+              "tip": "Pottery weight fine neck shoulder"
+            },
+            {
+              "field": "PotteryCountFineHandle",
+              "label": "F handle #",
+              "tip": "Pottery count fine handle"
+            },
+            {
+              "field": "PotteryWeightFineHandle",
+              "label": "F handle wt",
+              "tip": "Pottery weight fine handle"
+            },
+            {
+              "field": "PotteryCountFineBase",
+              "label": "F base #",
+              "tip": "Pottery count fine base"
+            },
+            {
+              "field": "PotteryWeightFineBase",
+              "label": "F base wt",
+              "tip": "Pottery weight fine base"
+            },
+            {
+              "field": "PotteryCountFineBody",
+              "label": "F body #",
+              "tip": "Pottery count fine body"
+            },
+            {
+              "field": "PotteryWeightFineBody",
+              "label": "F body wt",
+              "tip": "Pottery weight fine body"
+            },
+            {
+              "field": "PotteryCountMediumRim",
+              "label": "M rim #",
+              "tip": "Pottery count medium rim"
+            },
+            {
+              "field": "PotteryWeightMediumRim",
+              "label": "M rim wt",
+              "tip": "Pottery weight medium rim"
+            },
+            {
+              "field": "PotteryCountMediumNeckShoulder",
+              "label": "M neck/s #",
+              "tip": "Pottery count medium neck shoulder"
+            },
+            {
+              "field": "PotteryWeightMediumNeckShoulder",
+              "label": "M neck/s wt",
+              "tip": "Pottery weight medium neck shoulder"
+            },
+            {
+              "field": "PotteryCountMediumHandle",
+              "label": "M handle #",
+              "tip": "Pottery count medium handle"
+            },
+            {
+              "field": "PotteryWeightMediumHandle",
+              "label": "M handle wt",
+              "tip": "Pottery weight medium handle"
+            },
+            {
+              "field": "PotteryCountMediumBase",
+              "label": "M base #",
+              "tip": "Pottery count medium base"
+            },
+            {
+              "field": "PotteryWeightMediumBase",
+              "label": "M base wt",
+              "tip": "Pottery weight medium base"
+            },
+            {
+              "field": "PotteryCountMediumBody",
+              "label": "M body #",
+              "tip": "Pottery count medium body"
+            },
+            {
+              "field": "PotteryWeightMediumBody",
+              "label": "M body wt",
+              "tip": "Pottery weight medium body"
+            },
+            {
+              "field": "PotteryCountCoarseRim",
+              "label": "C rim #",
+              "tip": "Pottery count coarse rim"
+            },
+            {
+              "field": "PotteryWeightCoarseRim",
+              "label": "C rim wt",
+              "tip": "Pottery weight coarse rim"
+            },
+            {
+              "field": "PotteryCountCoarseNeckShoulder",
+              "label": "C neck/s #",
+              "tip": "Pottery count coarse neck shoulder"
+            },
+            {
+              "field": "PotteryWeightCoarseNeckShoulder",
+              "label": "C neck/s wt",
+              "tip": "Pottery weight coarse neck shoulder"
+            },
+            {
+              "field": "PotteryCountCoarseHandle",
+              "label": "C handle #",
+              "tip": "Pottery count coarse handle"
+            },
+            {
+              "field": "PotteryWeightCoarseHandle",
+              "label": "C handle wt",
+              "tip": "Pottery weight coarse handle"
+            },
+            {
+              "field": "PotteryCountCoarseBase",
+              "label": "C base #",
+              "tip": "Pottery count coarse base"
+            },
+            {
+              "field": "PotteryWeightCoarseBase",
+              "label": "C base wt",
+              "tip": "Pottery weight coarse base"
+            },
+            {
+              "field": "PotteryCountCoarseBody",
+              "label": "C body #",
+              "tip": "Pottery count coarse body"
+            },
+            {
+              "field": "PotteryWeightCoarseBody",
+              "label": "C body wt",
+              "tip": "Pottery weight coarse body"
+            }
+          ]
+        },
+        {
+          "group": "2016Pottery Mending",
+          "label": "2016Pottery Mending",
+          "fields": [
+              {
+                "field": "PotteryCountDiagnosticsBeforeMending",
+                "label": "diag pre #",
+                "tip": "Diagnostic pottery count before mending"
+              },
+              {
+                "field": "PotteryWeightDiagnosticsBeforeMending",
+                "label": "diag pre w",
+                "tip": "Diagnostic pottery weight before mending"
+              },
+              {
+                "field": "PotteryCountNonDiagnosticBeforeMending",
+                "label": "nond pre #",
+                "tip": "Non-Diagnostic pottery count before mending"
+              },
+              {
+                "field": "PotteryWeightNonDiagnosticBeforeMending",
+                "label": "nond pre w",
+                "tip": "Non-Diagnostic pottery weight before mending"
+              },
+              {
+                "field": "PotteryCountSmallBeforeMending",
+                "label": "Small pre #",
+                "tip": "Small pottery count before mending"
+              },
+              {
+                "field": "PotteryWeightSmallBeforeMending",
+                "label": "small pre w",
+                "tip": "Small pottery weight before mending"
+              },
+              {
+                "field": "PotteryCountBeforeMending",
+                "label": "pre count",
+                "tip": "Total pottery count before mending"
+              },
+              {
+                "field": "PotteryWeightBeforeMending",
+                "label": "pre weight",
+                "tip": "Total pottery weight before mending"
+              },
+              {
+                "field": "PotteryCountAfterMending",
+                "label": "post count",
+                "tip": "Pottery count after mending"
+              },
+              {
+                "field": "PotteryWeightAfterMending",
+                "label": "post weight",
+                "tip": "Pottery weight after mending"
+              }
+            ]
+        },
+        {
+          "group": "2016Pottery Count Phases",
+          "label": "2016Pottery Count Phases",
+          "fields": [
+              {
+                "field": "PotteryCountPhaseA",
+                "label": "phase a #",
+                "tip": "Pottery count Phase A"
+              },
+              {
+                "field": "PotteryCountPhaseB",
+                "label": "phase b #",
+                "tip": "Pottery count Phase B"
+              },
+              {
+                "field": "PotteryCountPhaseC",
+                "label": "phase c #",
+                "tip": "Pottery count Phase C"
+              },
+              {
+                "field": "PotteryCountPhaseOther",
+                "label": "other #",
+                "tip": "Pottery count other chronology"
+              }
+            ]
+        },
+        {
+          "group": "2016Phase",
+          "label": "2016Phase",
+          "fields": [
+              {
+                "field": "CoverageTemporal"
+              }
+            ]
         },
         {
           "group": "Status",

@@ -1,7 +1,7 @@
 {
   "version": 20191024,
   "project": "Keros test",
-  "crs": "KerosA",
+  "crs": "KerosB",
   "fields": [
     {
       "field": "ACRComment",

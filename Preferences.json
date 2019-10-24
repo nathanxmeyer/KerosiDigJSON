@@ -883,11 +883,11 @@
             {
               "field": "Description"
             },
-	    {
-	      "field": "KPMComment",
-	      "label": "KPMComment",
-	      "multiline": true
-	    },
+            {
+              "field": "KPMComment",
+              "label": "KPMComment",
+              "multiline": true
+            }
           ]
         },
         {
@@ -1100,11 +1100,11 @@
             },
             { "field": "PotteryInterpretation"
             },
-	    {
-	      "field": "KPMComment",
-	      "label": "KPMComment",
-	      "multiline": true
-	    },
+            {
+              "field": "KPMComment",
+              "label": "KPMComment",
+              "multiline": true
+            }
           ]
         },
         {
@@ -1385,11 +1385,11 @@
             },
             { "field": "PotteryInterpretation"
             },
-	    {
-	      "field": "KPMComment",
-	      "label": "KPMComment",
-	      "multiline": true
-	    },
+            {
+              "field": "KPMComment",
+              "label": "KPMComment",
+              "multiline": true
+            }
           ]
         },
         {
@@ -1571,11 +1571,11 @@
             {
               "field": "Description"
             },
-	    {
-	      "field": "KPMComment",
-	      "label": "KPMComment",
-	      "multiline": true
-	    },
+            {
+              "field": "KPMComment",
+              "label": "KPMComment",
+              "multiline": true
+            }
           ]
         },
         {
@@ -1709,11 +1709,11 @@
             {
               "field": "Description"
             },
-	    {
-	      "field": "KPMComment",
-	      "label": "KPMComment",
-	      "multiline": true
-	    },
+            {
+              "field": "KPMComment",
+              "label": "KPMComment",
+              "multiline": true
+            }
           ]
         },
         {
